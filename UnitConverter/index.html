@@ -1,0 +1,34 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+    <div class="converter">
+        <section class="conversion__section">
+        <h1>Metric/Imperial unit converter</h1>
+        <form><p><label>Enter a number:</p>
+        <p><input type="number" name="number" min="1" max="100 000"step="1" placeholder="0" class="input__value"></p>
+        </label>
+        <!-- <button>Submit</button> -->
+  </form>
+        </section>
+        <section class="results__section">
+            <div class="unit__label">
+                <p class="label__bold">Length (Meter/Feet)</p>
+                <p class="unit__text">
+                    <span class="input-number">0</span> Meters = <span id = "meters-to-feet">0.000</span> Feet | 
+                    <span class="input-number">0</span> Feet = <span id ="feet-to-meters">0.000</span> Meters</p>
+                <p class="label__bold">Volume (Liters/Gallons)</p>
+                <p class="unit__text">
+                    <span class="input-number">0</span> Liters = <span id = "liters-to-gallons">0.000</span> Gallons | 
+                    <span class="input-number">0</span> Gallons = <span id ="galons-to-liters">0.000</span> Liters</p>
+                <p class="label__bold">Mass (Kilograms/Pounds)</p>
+                <p class="unit__text">
+                    <span class="input-number">0</span> Kilograms = <span id = "kilograms-to-pounds">0.000</span> Pounds | 
+                    <span class="input-number">0</span> Pounds = <span id ="pounds-to-kilograms">0.000</span> Kilograms</p>
+            </div>
+        </section>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
