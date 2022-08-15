@@ -1,4 +1,3 @@
 # Odinrepos
 
-Repository for all Odin projects
-Hello Odin
+Repository for some Odin projects
